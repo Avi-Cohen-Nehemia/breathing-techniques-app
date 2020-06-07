@@ -51,3 +51,19 @@ body {
     position: absolute;
     z-index: -1;
 }
+
+.pointer-container {
+    position: absolute;
+    top: -40px;
+    left: 140px;
+    width: 20px;
+    height: 190px;
+}
+
+.pointer {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: block;
+}
