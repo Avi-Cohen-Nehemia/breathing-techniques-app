@@ -2,7 +2,7 @@
 
 // selected the desired classes and stored in variables
 const container = d.querySelector(".container");
-const text = d.querySelector(".text");
+const text = d.querySelector("#text");
 
 // set times
 const totalTime = 10000;
