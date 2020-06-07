@@ -70,6 +70,16 @@ body {
     display: block;
 }
 
+/*grow class is applied using js*/
+.container.grow {
+    animation: grow 4s linear forwards;
+}
+
+/*shrink class is applied using js*/
+.container.shrink {
+    animation: shrink 4s linear forwards;
+}
+
 @keyframes rotate {
     from {
         transform: rotate(0deg);
@@ -77,5 +87,25 @@ body {
 
     to {
         transform: rotate(360deg);
+    }
+}
+
+@keyframes grow {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes shrink {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
     }
 }
