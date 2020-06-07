@@ -1,6 +1,6 @@
 # Relaxer
 
-![](relxer.gif)
+![](relaxer.gif)
 
 ## Description:
 
