@@ -1,12 +1,12 @@
 # Relaxer
 
-![](realxer.gif)
+![](relxer.gif)
 
-## Description
+## Description:
 
 An app for helping people breathing peoperly when trying to calm down.
 
-## Written With
+## Written With:
 
 * HTML
 * CSS
