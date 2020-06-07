@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import "fonts.css";
+@import "animations.css";
 
 * {
     box-sizing: border-box;
@@ -24,7 +25,6 @@ body {
     width: 300px;
     margin: auto;
     position: relative;
-    transform: scale(1);
 }
 
 .gradient-circle {
@@ -58,8 +58,6 @@ body {
     left: 140px;
     width: 20px;
     height: 190px;
-    animation: rotate 10s linear forwards infinite;
-    transform-origin: bottom center;
 }
 
 .pointer {
@@ -68,44 +66,4 @@ body {
     width: 20px;
     height: 20px;
     display: block;
-}
-
-/*grow class is applied using js*/
-.container.grow {
-    animation: grow 4s linear forwards;
-}
-
-/*shrink class is applied using js*/
-.container.shrink {
-    animation: shrink 4s linear forwards;
-}
-
-@keyframes rotate {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes grow {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.2);
-    }
-}
-
-@keyframes shrink {
-    from {
-        transform: scale(1.2);
-    }
-
-    to {
-        transform: scale(1);
-    }
 }
