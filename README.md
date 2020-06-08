@@ -4,7 +4,7 @@
 
 ## Description:
 
-An app for helping people visulay, to breath peoperly, when trying to calm down.
+An app for visulay helping people, to breath peoperly, when trying to calm down.
 
 ## Written With:
 
