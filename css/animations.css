@@ -42,3 +42,19 @@
         transform: scale(1);
     }
 }
+
+.links a:hover {
+    color: black;
+    background-color: #fff;
+    animation: fadeIn 1s linear forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.8;
+    }
+}
