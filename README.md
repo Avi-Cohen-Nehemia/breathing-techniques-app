@@ -18,6 +18,9 @@ An app that visulay helps people, to breath peoperly, when trying to calm down.
 * CSS
 * Vanilla JS
 
+## Live version:
+http://www.breathing-techniques.co.uk.s3-website.eu-west-2.amazonaws.com
+
 ## Resources / credit
 
 https://www.youtube.com/watch?v=l-1ZrU6avzI&t=0s
