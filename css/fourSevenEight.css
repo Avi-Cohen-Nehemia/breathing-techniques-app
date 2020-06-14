@@ -1,0 +1,70 @@
+@import "fonts.css";
+@import "fourSevenEightAnimations.css";
+@import "header.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../images/fourSevenEight.jpg") no-repeat center center/cover;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    position: relative;
+}
+
+.fourSevenEight-gradient-circle {
+    background: conic-gradient(
+        #d663cd 0%,
+        #b958b1 21%,
+        #fff 21%,
+        #fff 58%,
+        #994992 58%,
+        #7c3c77 100%
+    );
+    height: 320px;
+    width: 320px;
+    z-index: -2;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.circle {
+    background-color: #010f1c;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+}
+
+.pointer-container {
+    position: absolute;
+    top: -40px;
+    left: 140px;
+    width: 20px;
+    height: 190px;
+}
+
+.pointer {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: block;
+}
