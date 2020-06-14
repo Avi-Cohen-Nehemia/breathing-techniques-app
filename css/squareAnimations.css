@@ -1,0 +1,57 @@
+.pointer-container {
+    animation: rotate 16s linear forwards infinite;
+}
+
+@keyframes rotate {
+    0% {left: 320px; top: -40px;}
+    25% {left: 320px; top: 320px;}
+    50% {left: -40px; top: 320px;}
+    75% {left: -40px; top: -40px;}
+    100% {left: 320px; top: -40px;}
+}
+
+/*grow class is applied using js*/
+.container.grow {
+    animation: grow 4s linear forwards;
+}
+
+@keyframes grow {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+/*shrink class is applied using js*/
+.container.shrink {
+    animation: shrink 4s linear forwards;
+}
+
+@keyframes shrink {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.links a:hover {
+    color: black;
+    background-color: #fff;
+    animation: fadeIn 1s linear forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.8;
+    }
+}
