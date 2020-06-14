@@ -4,7 +4,13 @@
 
 ## Description:
 
-An app for visulay helping people, to breath peoperly, when trying to calm down.
+An app that visulay helps people, to breath peoperly, when trying to calm down.
+
+### Choose from 3 options:
+
+* Default: 10 seconds breathing cylces of 4s inhale, 2s hold, 4s exhale.
+* 4-7-8: 19 seconds braething cylces 4s inhale, 7s hold, 8s exhale.
+* square: 16 seconds breathing cylces 4s inhale, 4s hold, 4s exhale, 4s hold.
 
 ## Written With:
 
