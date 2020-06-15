@@ -49,7 +49,7 @@
     .links {
         display: flex;
         justify-content: space-around;
-        margin-left: 1rem;
+        margin-left: 1.7rem;
     }
 
     .links a {
