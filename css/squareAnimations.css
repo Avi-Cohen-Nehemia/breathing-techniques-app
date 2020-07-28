@@ -10,6 +10,16 @@
     100% {left: 320px; top: -40px;}
 }
 
+@media screen and (max-width: 500px) {
+    @keyframes rotate {
+        0% {left: 260px; top: -40px;}
+        25% {left: 260px; top: 260px;}
+        50% {left: -40px; top: 260px;}
+        75% {left: -40px; top: -40px;}
+        100% {left: 260px; top: -40px;}
+    }
+}
+
 /*grow class is applied using js*/
 .container.grow {
     animation: grow 4s linear forwards;

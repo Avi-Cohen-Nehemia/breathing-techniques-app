@@ -68,3 +68,26 @@ body {
     height: 20px;
     display: block;
 }
+
+@media screen and (max-width: 500px) {
+    .container {
+        height: 240px;
+        width: 240px;
+    }
+
+    .fourSevenEight-gradient-circle {
+        height: 260px;
+        width: 260px;
+    }
+
+    .pointer-container {
+        left: 110px;
+        width: 17px;
+        height: 160px;
+    }
+
+    .pointer {
+        width: 17px;
+        height: 17px;
+    }
+}
